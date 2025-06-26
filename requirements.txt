@@ -1,0 +1,14 @@
+This file lists the Python packages required to run the object detection script.
+Install them using: pip install -r requirements.txt
+Core library for YOLOv8, handles model loading, inference, and plotting
+ultralytics
+
+Required by ultralytics for model operations and GPU support
+torch
+torchvision
+
+For capturing webcam feed, image processing, and displaying video
+opencv-python
+
+For numerical operations, although often installed as a dependency
+numpy
